@@ -242,6 +242,25 @@ button {
 
 /*-----------------------Valor agregado*/
 
+.valores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-valor {
+    height: 120px;
+    width: 270px;
+    left: 206px;
+    top: 769px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.icon-valor-es {
+    fill: none;
+}
+
 .cont2 {
     display: flex;
     justify-content: space-evenly;
@@ -277,8 +296,10 @@ button {
 }
 
 .personas {
+    height: 708px;
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .tit2 {
@@ -305,19 +326,24 @@ button {
 }
 
 .tarjeta {
-    height: 368px;
+    height: 428px;
     width: 270px;
     left: 208px;
     top: 1696px;
     border-radius: 2%;
     background: #ffffff;
-    margin-top: 94px;
 }
 
 .tarjeta:hover {
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001f;
+}
+
+.fila-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
 }
 
 
@@ -491,6 +517,39 @@ button:hover {
     cursor: pointer;
 }
 
+.clientes {
+    height: 372px;
+    width: 1200px;
+    left: 0px;
+    top: 1599px;
+    border-radius: 0px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tit4 {
+    height: 37px;
+    width: 323px;
+    left: 640px;
+    top: 2366px;
+    border-radius: nullpx;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin-top: 59px;
+    margin-bottom: 276px;
+}
+
+.iconos-clientes {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right: 30px;
+}
+
 footer {
     height: 252px;
     width: 100%;
@@ -534,25 +593,23 @@ ul {
     height: 44px;
     width: 44px;
     left: 0px;
-    top: -0.00006103515625px;
+    top: -0.0px;
     border-radius: 0px;
-    fill: #ffffff1a;
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-client {
+    height: 81px;
+    width: 170px;
+    left: 1215px;
+    top: 2447px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
 }
 
 .icon:hover {
-    background: #2196f3;
-}
-
-.icon:hover {
-    background: #2196f3;
-}
-
-.icon {
-    height: 44px;
-    width: 44px;
-    left: 0px;
-    top: -0px;
-    border-radius: 0px;
-    fill: #f5f4fa;
-    stroke: #757575;
+    background-color: #2196f3;
 }
