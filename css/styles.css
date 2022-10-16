@@ -246,9 +246,10 @@ button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 30px;
 }
 
-.icon-valor {
+.caja-icon {
     height: 120px;
     width: 270px;
     left: 206px;
@@ -257,18 +258,13 @@ button {
     background: #F5F4FA;
 }
 
-.icon-valor-es {
-    fill: none;
-}
-
 .cont2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    margin-top: 95px;
-    margin-bottom: 94px;
     text-align: center;
+    margin-bottom: 99px;
 }
 
 .images1 {
@@ -323,6 +319,7 @@ button {
     line-height: 42px;
     letter-spacing: 0.03em;
     padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .tarjeta {
@@ -332,6 +329,14 @@ button {
     top: 1696px;
     border-radius: 2%;
     background: #ffffff;
+}
+
+img {
+    height: 260px;
+    width: 270px;
+    left: 215px;
+    top: 1785px;
+    border-radius: 0px;
 }
 
 .tarjeta:hover {
@@ -350,12 +355,11 @@ button {
     height: 44px;
     width: 44px;
     left: 0px;
-    top: -0.0px;
-    border-radius: 0px;
+    top: 0px;
+    border-radius: 100px;
+    align-content: center;
+    margin-right: 10px;
     fill: #AFB1B8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .icon:hover {
@@ -534,7 +538,7 @@ button:hover {
 }
 
 
-/* Sección Clientes */
+/*--------------------------------------- Sección Clientes */
 
 .clientes {
     height: 372px;
@@ -544,6 +548,10 @@ button:hover {
     background: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 59px;
+    margin-bottom: 44px
 }
 
 .tit4 {
@@ -562,6 +570,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     margin-right: 30px;
+    margin-bottom: 151px;
 }
 
 .icon-client {
@@ -569,6 +578,8 @@ button:hover {
     width: 170px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
+    margin-right: 30px;
+    fill: #AFB1B8;
 }
 
 
@@ -615,23 +626,18 @@ address {
     line-height: 16px;
     letter-spacing: 0.03em;
     margin-left: 156px;
-    margin-top: 0px;
+    margin-top: -12px;
     color: white;
+}
+
+.direccion {
+    margin-left: 176px;
 }
 
 ul {
     list-style: none;
     margin-left: 170px;
 }
-
-
-/* li { */
-
-
-/* margin-left: 215px; */
-
-
-/* } */
 
 .lugar {
     color: white;
@@ -657,14 +663,9 @@ ul {
     align-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     fill: white;
+    margin-right: 10px;
 }
 
 .icon-p:hover {
-    color: #2196F3
-}
-
-.icon-interior {
-    width: 10px;
-    margin: 0px;
-    display: block;
+    background-color: #2196F3;
 }
