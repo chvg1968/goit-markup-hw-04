@@ -346,6 +346,22 @@ button {
     margin-top: -50px;
 }
 
+.icon {
+    height: 44px;
+    width: 44px;
+    left: 0px;
+    top: -0.0px;
+    border-radius: 0px;
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: #2196f3;
+}
+
 
 /*--------------------segunda página-Verticales de Negocio*/
 
@@ -517,16 +533,17 @@ button:hover {
     cursor: pointer;
 }
 
+
+/* Sección Clientes */
+
 .clientes {
     height: 372px;
-    width: 1200px;
     left: 0px;
     top: 1599px;
     border-radius: 0px;
     background: white;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .tit4 {
@@ -539,16 +556,23 @@ button:hover {
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 0.03em;
-    margin-top: 59px;
-    margin-bottom: 276px;
 }
 
 .iconos-clientes {
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
     margin-right: 30px;
 }
+
+.icon-client {
+    height: 81px;
+    width: 170px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+
+/* ------------------------------Pie de página */
 
 footer {
     height: 252px;
@@ -557,6 +581,23 @@ footer {
     top: 1628px;
     border-radius: 0px;
     background-color: #2f303a;
+}
+
+.web-final {
+    height: 31px;
+    width: 145px;
+    left: 215px;
+    top: 2739px;
+    border-radius: nullpx;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2196F3;
+    padding-top: 60px;
+    margin-left: 215px;
 }
 
 address {
@@ -573,13 +614,24 @@ address {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
-    color: #FFFFFF;
+    margin-left: 156px;
+    margin-top: 0px;
+    color: white;
 }
 
 ul {
     list-style: none;
+    margin-left: 170px;
 }
+
+
+/* li { */
+
+
+/* margin-left: 215px; */
+
+
+/* } */
 
 .lugar {
     color: white;
@@ -589,27 +641,30 @@ ul {
     color: #ffffff99;
 }
 
-.icon {
+.fila-icons-piepagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 156px;
+}
+
+.icon-p {
     height: 44px;
     width: 44px;
     left: 0px;
-    top: -0.0px;
-    border-radius: 0px;
-    fill: #AFB1B8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 0px;
+    border-radius: 100px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: white;
 }
 
-.icon-client {
-    height: 81px;
-    width: 170px;
-    left: 1215px;
-    top: 2447px;
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
+.icon-p:hover {
+    color: #2196F3
 }
 
-.icon:hover {
-    background-color: #2196f3;
+.icon-interior {
+    width: 10px;
+    margin: 0px;
+    display: block;
 }
