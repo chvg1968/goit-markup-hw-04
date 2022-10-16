@@ -87,6 +87,25 @@ nav {
     color: #2196f3;
 }
 
+.icono-correo {
+    height: 12px;
+    width: 16px;
+    left: 1052px;
+    top: 34px;
+    border-radius: 0px;
+    background: #2196F3;
+    margin-left: 306px;
+}
+
+.icon-movil {
+    height: 16px;
+    width: 10px;
+    left: 1243px;
+    top: 32px;
+    border-radius: 0px;
+    background: #757575;
+}
+
 .correo:hover {
     color: #2196f3;
 }
@@ -580,6 +599,11 @@ button:hover {
     border: 1px solid #AFB1B8;
     margin-right: 30px;
     fill: #AFB1B8;
+}
+
+.icon-client:hover {
+    fill: #2196F3;
+    border: solid 1px #2196F3
 }
 
 
