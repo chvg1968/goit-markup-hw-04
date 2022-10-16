@@ -200,11 +200,10 @@ button {
     top: 80px;
     border-radius: 0px;
     background-image: url(/images/Imagenfondo.jpeg);
-    color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin-bottom: 94px;
     text-align: center;
 }
