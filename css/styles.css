@@ -351,14 +351,6 @@ button {
     background: #ffffff;
 }
 
-img {
-    height: 260px;
-    width: 270px;
-    left: 215px;
-    top: 1785px;
-    border-radius: 0px;
-}
-
 .tarjeta:hover {
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
