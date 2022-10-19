@@ -135,34 +135,11 @@ nav {
     letter-spacing: 0.02em;
 }
 
-.icono-correo:hover::before,
-.icono-correo::after {
-    content: "";
-    display: inline-block;
+.grupo-contacto1:hover,
+.correo:hover {
     fill: #2196F3;
     color: #2196F3
 }
-
-
-/* .correo::after :hover { */
-
-
-/* fill: #2196F3 */
-
-
-/* } */
-
-
-/*  */
-
-
-/* .correo:hover { */
-
-
-/* color: #2196f3; */
-
-
-/* } */
 
 .icono-tel {
     height: 16px;
@@ -186,12 +163,10 @@ nav {
     color: #757575;
 }
 
-.icono-tel:hover {
-    fill: #2196F3
-}
-
+.grupo-contacto2:hover,
 .tel:hover {
-    color: #2196F3;
+    fill: #2196F3;
+    color: #2196F3
 }
 
 
