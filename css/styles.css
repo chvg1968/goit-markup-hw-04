@@ -133,8 +133,7 @@ nav {
     letter-spacing: 0.02em;
 }
 
-.grupo-contacto1:hover,
-.correo:hover {
+.grupo-contacto1:hover * {
     fill: #2196F3;
     color: #2196F3
 }
@@ -161,8 +160,7 @@ nav {
     color: #757575;
 }
 
-.grupo-contacto2:hover,
-.tel:hover {
+.grupo-contacto2:hover * {
     fill: #2196F3;
     color: #2196F3
 }
