@@ -25,7 +25,7 @@
                 <p class="estudio">Estudio</p>
             </div>
             <div>
-                <a href="portafolio.html">
+                <a class="link1" href="portafolio.html">
                     <p class="portafolio">Portafolio</p>
                 </a>
             </div>
@@ -33,11 +33,12 @@
                 <p class="contactos">Contactos</p>
             </div>
         </nav>
-        <div>
-            <img class="icono-correo" src="images/sobre.jpeg " alt="sobre">
-            <a href="mailto:info@devstudio.com" class="correo">info@devstudio.com</a>
-            <img class="icon-movil" src="images/movil.jpeg" alt="cel">
-            <a href="tel:+525555296000" class="tel">+52 5555296000</a>
+        <div class="iconos-contacto">
+            <svg class="icono-correo"><use href="./images/icons.svg#icon-correo"></use>
+          </svg>
+            <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <svg class="icono-tel"><use href="./images/icons.svg#icon-movil"></use></svg>
+            <a class="tel" href="tel:+525555296000">+52 5555296000</a>
         </div>
     </header>
 
@@ -116,11 +117,33 @@
         <!--Servicios-->
         <section class="container">
             <div class="images1">
-                <h2 class="tit2"><b>A qué nos dedicamos</b></h2>
-                <img class="margen1" src="images/desktop.jpeg" alt="Desktop " width="373" height="323">
-                <img class="margen1" src="images/laptop.jpeg" alt="laptop " width="373" height="323">
-                <img class="margen1" src="images/tablet.jpeg" alt="tablet " width="373" height="323">
+                <div>
+                    <h2 class="tit2"><b>A qué nos dedicamos</b></h2>
+                </div>
+                <div class="fila-servicios">
+                    <div class="t1">
+                        <img class="margen1" src="images/desktop.jpeg" alt="Desktop " width="370" height="323">
+                        <div class="caja-texto">
+                            <b>APLICACIONES DE ESCRITORIO</b>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <img class="margen1" src="images/laptop.jpeg" alt="laptop " width="370" height="323">
+                        <div class="caja-texto">
+                            <b>APLICACIONES MÓVILES</b>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <img class="margen1" src="images/tablet.jpeg" alt="tablet " width="370" height="323">
+                        <div class="caja-texto">
+                            <b>SOLUCIONES DE DISEÑO</b>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+
         </section>
 
         <!--Equipo de Trabajo-->
